@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+.header__top {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top-subtitle {
+  text-decoration: underline;
+  color: rgb(106, 106, 106);
+}
+.header__title {
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.header__login {
+  display: flex;
+  align-items: center;
+}
+.header__login-svg {
+  margin-right: 20px;
+  color: black;
+}
+.header__login-svg svg {
+  width: 26px;
+  height: 26px;
+}
+.header__button {
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.header__nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #bdbdbd;
+}
+.header__link {
+  text-decoration: underline;
+  font-size: 16px;
+  color: rgb(106, 106, 106);
+}
+
+.main__section {
+  display: flex;
+  margin: 0 -10px;
+}
+.main__item {
+  margin: 0 10px;
+  display: flex;
+  border: 1px solid #ababab;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.main__item-text {
+  padding: 20px;
+  flex: 0 0 60%;
+}
+.main__item-title {
+  margin-bottom: 30px;
+}
+.main__item-side {
+  display: flex;
+  flex: 1 0 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: #595858;
+  color: #fff;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.para {
+  font-size: 16px;
+  line-height: 1.5;
+}
